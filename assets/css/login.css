@@ -1,0 +1,93 @@
+html,
+body {
+	height: 100%;
+}
+
+body.page-content {
+	background-color: #f7f9fb;
+	font-size: 14px;
+}
+
+.page-content .brand {
+	width: 90px;
+	height: 90px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 40px auto;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+	position: relative;
+	z-index: 1;
+}
+
+.page-content .brand img {
+	width: 100%;
+}
+
+.page-content .card-wrapper {
+	width: 400px;
+}
+
+.page-content .card {
+	border-color: transparent;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.page-content .card.fat {
+	padding: 10px;
+}
+
+.page-content .card .card-title {
+	margin-bottom: 30px;
+}
+
+.page-content .form-control {
+	border-width: 2.3px;
+}
+
+.page-content .form-group label {
+	width: 100%;
+}
+
+.page-content .btn.btn-block {
+	padding: 12px 10px;
+}
+
+.page-content .footer {
+	margin: 40px 0;
+	color: #888;
+	text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+	.page-content .card-wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.page-content .card.fat {
+		padding: 0;
+	}
+
+	.page-content .card.fat .card-body {
+		padding: 15px;
+	}
+}
+.title {
+	font-weight: 600;
+	margin-top: 20px;
+	font-size: 24px;
+	text-align: center;
+}
+
+.otp {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+}
+.verify-otp {
+	display: flex;
+	justify-content: space-evenly;
+}
