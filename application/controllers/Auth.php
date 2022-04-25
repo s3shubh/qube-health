@@ -52,8 +52,8 @@ class Auth extends CI_Controller
                         'ip_address'    => $this->input->ip_address(),
                         'otp'           => $otp,
                         'role_id'       => 2,
-                        'is_active'     => 1,
-                        'is_deleted'    => 1,
+                        'is_active'     => 0,
+                        'is_deleted'    => 0,
                         'created_at'    => date('Y-m-d H:i:s')
                     ];
                     $insert_data = $this->security->xss_clean($insert_data);
